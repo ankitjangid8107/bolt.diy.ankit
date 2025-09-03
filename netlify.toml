@@ -5,7 +5,7 @@
     X-Content-Type-Options = "nosniff"
 
 [build]
-  command = "NODE_OPTIONS=--max_old_space_size=3072 pnpm run build"
+  command = "pnpm run build"
   publish = "build/client"
 
 [[redirects]]
